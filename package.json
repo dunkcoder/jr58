@@ -1,0 +1,33 @@
+{
+  "name": "jr58",
+  "version": "0.1.0",
+  "description": "适用于58金融事业部的基于jello的前端解决方案",
+  "main": "jr58.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "jr58"
+  },
+  "bin": {
+    "jr58": "bin/jr58"
+  },
+  "keywords": [
+    "jello"
+  ],
+  "author": {
+    "name": "MXR"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "jello": "^1.0.11",
+    "fis-parser-template": "^0.2.0",
+    "fis-parser-utc": "0.0.2",
+    "fis-postpackager-simple": "0.0.26",
+    "fis-postprocessor-amd": "^0.2.18",
+    "fis-postprocessor-require-async": "0.0.9",
+    "fis-preprocessor-replace58": "^1.0.0"
+  },
+  "readme": "#58replace\n******\n* 专门为58金融事业部所定做的前端集成解决方案\n* 基于jello\n* 基于velocity\n* fis-preprocessor-replace58(解决velocity模版发布路径替换问题插件)",
+  "readmeFilename": "README.md"
+}
