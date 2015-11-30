@@ -1,6 +1,6 @@
 {
   "name": "jr58",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "适用于58金融事业部的基于jello的前端解决方案",
   "main": "jr58.js",
   "engines": {
